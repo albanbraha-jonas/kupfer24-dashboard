@@ -6,5 +6,5 @@ Kleine Landingpage mit Outreach-Dashboard für Kupfer24.
 
 ```bash
 npm run build
-vercel --prod dist
+vercel --prod
 ```

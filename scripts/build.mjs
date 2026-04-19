@@ -2,34 +2,8 @@ import fs from 'fs';
 import path from 'path';
 
 const root = path.resolve(process.cwd());
-const workspace = path.resolve(root, '../..');
-const focusCsv = fs.readFileSync(path.join(workspace, 'outreach', 'kupfer24_elektriker_focus.csv'), 'utf8');
-const pipelineCsv = fs.readFileSync(path.join(workspace, 'outreach', 'kupfer24_outreach_pipeline.csv'), 'utf8');
-
-function parseCsv(text) {
-  const lines = text.trim().split(/\r?\n/);
-  const headers = lines.shift().split(',');
-  return lines.map(line => {
-    const values = [];
-    let cur = '';
-    let inQuotes = false;
-    for (let i = 0; i < line.length; i++) {
-      const ch = line[i];
-      if (ch === '"') {
-        inQuotes = !inQuotes;
-      } else if (ch === ',' && !inQuotes) {
-        values.push(cur);
-        cur = '';
-      } else {
-        cur += ch;
-      }
-    }
-    values.push(cur);
-    const row = {};
-    headers.forEach((h, i) => row[h] = (values[i] || '').trim());
-    return row;
-  });
-}
+const focus = JSON.parse(fs.readFileSync(path.join(root, 'data', 'focus.json'), 'utf8'));
+const pipeline = JSON.parse(fs.readFileSync(path.join(root, 'data', 'pipeline.json'), 'utf8'));
 
 function countBy(rows, key) {
   return Object.entries(rows.reduce((acc, row) => {
@@ -39,8 +13,6 @@ function countBy(rows, key) {
   }, {})).sort((a, b) => a[0].localeCompare(b[0], 'de'));
 }
 
-const focus = parseCsv(focusCsv);
-const pipeline = parseCsv(pipelineCsv);
 const visibleFocus = focus.filter(r => r.company);
 const toContact = visibleFocus.filter(r => r.status === 'to_contact');
 const replied = visibleFocus.filter(r => ['replied', 'interested', 'qualified', 'meeting_requested', 'won'].includes(r.status));

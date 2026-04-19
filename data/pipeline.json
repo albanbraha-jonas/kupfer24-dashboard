@@ -1,0 +1,19 @@
+[
+  {"segment":"Elektriker","region":"Aargau","company":"Jost Elektro AG","status":"to_contact","notes":"Startblock Aargau"},
+  {"segment":"Elektriker","region":"Aargau","company":"W + S Elektro AG","status":"to_contact","notes":"Aarau Rohr"},
+  {"segment":"Elektriker","region":"Aargau","company":"Eglin Elektro AG Baden","status":"to_contact","notes":"Baden"},
+  {"segment":"Elektriker","region":"Aargau","company":"LNPE Elektro GmbH","status":"to_contact","notes":"Rekingen"},
+  {"segment":"Elektriker","region":"Aargau","company":"Elektro Locher Installationen AG","status":"to_contact","notes":"Mehrere Standorte im Aargau"},
+  {"segment":"Elektriker","region":"Aargau","company":"Lovino Elektro GmbH","status":"to_contact","notes":"Niederrohrdorf"},
+  {"segment":"Elektriker","region":"Aargau","company":"Jenni + Bolliger Hunzenschwil AG","status":"to_contact","notes":"Möriken AG"},
+  {"segment":"Elektriker","region":"Aargau","company":"Keller Erhard AG","status":"to_contact","notes":"Zofingen"},
+  {"segment":"Elektriker","region":"Zürich","company":"Zünd Elektro AG","status":"to_contact","notes":"Dübendorf"},
+  {"segment":"Elektriker","region":"Zürich","company":"Heinz Bär AG Elektro-Anlagen","status":"to_contact","notes":"Zürich"},
+  {"segment":"Elektriker","region":"Zürich","company":"","status":"research_pending","notes":"Startblock 2"},
+  {"segment":"Rückbau","region":"Zug","company":"","status":"research_pending","notes":""},
+  {"segment":"Sanitär","region":"Luzern","company":"","status":"research_pending","notes":""},
+  {"segment":"Metallbau","region":"Aargau","company":"","status":"research_pending","notes":""},
+  {"segment":"Industrie","region":"Basel","company":"","status":"research_pending","notes":""},
+  {"segment":"Tiefbau","region":"Bern","company":"","status":"research_pending","notes":""},
+  {"segment":"Entsorger","region":"Schwyz","company":"","status":"research_pending","notes":""}
+]
