@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kupfer24 CRM Dashboard</title>
+  <style>
+    :root { --bg:#09101f; --card:#121a31; --muted:#93a0c3; --text:#eef2ff; --accent:#f59e0b; --good:#22c55e; --bad:#ef4444; --line:#24304f; }
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#09101f,#111933);color:var(--text)}
+    .wrap{max-width:1320px;margin:0 auto;padding:28px 18px 60px}
+    .hero{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin-bottom:20px}
+    .card{background:rgba(18,26,49,.94);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+    h1,h2,h3,p{margin:0} h1{font-size:38px;line-height:1.05;margin-bottom:10px} h2{font-size:22px;margin-bottom:14px} .muted{color:var(--muted)}
+    .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:20px 0}.stat{padding:18px;border-radius:16px;background:#0f1730;border:1px solid var(--line)}
+    .stat strong{display:block;font-size:28px;margin-bottom:6px}.badge{display:inline-block;background:rgba(245,158,11,.15);color:#fbbf24;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}.list{display:grid;gap:12px}.item{padding:14px;border:1px solid var(--line);border-radius:14px;background:#0f1730}
+    table{width:100%;border-collapse:collapse;font-size:14px} th,td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} th{color:#c7d2fe;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+    .section{margin-top:18px}.small{font-size:12px;color:var(--muted)} .pill{padding:4px 8px;border-radius:999px;border:1px solid var(--line);font-size:12px;color:#cbd5e1;display:inline-block}
+    .tabs{display:grid;gap:18px}.ok{color:var(--good)} .bad{color:var(--bad)} a{color:#c4b5fd;text-decoration:none}
+    @media (max-width: 1000px){.hero,.grid2,.stats{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="card">
+        <span class="badge">Kupfer24 Outreach CRM</span>
+        <h1>Immer aktuell, wer kontaktiert wurde und was als Nächstes ansteht</h1>
+        <p class="muted">Ziel bis 30.04.2026: mindestens 5 Elektrikerfirmen gewinnen, die ihr Kupfer an Kupfer24 verkaufen.</p>
+      </div>
+      <div class="card">
+        <h3>Heute Fokus</h3>
+        <div class="list" style="margin-top:12px">
+          <div class="item"><strong>Aargau + Zürich</strong><div class="small">erste Kontaktwelle priorisieren</div></div>
+          <div class="item"><strong>Personalisierung</strong><div class="small">20 bis 50 Einzelmails pro Tag, keine Blasts</div></div>
+          <div class="item"><strong>Conversion statt Vanity</strong><div class="small">Gespräch, Testlieferung, dann wiederkehrende Zusammenarbeit</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><strong>10</strong><span class="muted">sichtbare Firmen</span></div>
+      <div class="stat"><strong>10</strong><span class="muted">zu kontaktieren</span></div>
+      <div class="stat"><strong>0</strong><span class="muted">geantwortet/interessiert</span></div>
+      <div class="stat"><strong>0</strong><span class="muted">gewonnen</span></div>
+      <div class="stat"><strong>0</strong><span class="muted">verloren/kalt</span></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h2>Nächste Aktionen</h2>
+        <div class="list">
+          <div class="item"><strong>Jost Elektro AG</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Elektroinstallateur im Aargau mit Service Automation und Photovoltaik</div></div><div class="item"><strong>W + S Elektro AG</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Aarau Rohr mit Elektroinstallationen und Photovoltaik</div></div><div class="item"><strong>Eglin Elektro AG Baden</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Baden im Aargau und Limmattal</div></div><div class="item"><strong>LNPE Elektro GmbH</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Rekingen mit Elektroinstallationen und Montagen</div></div><div class="item"><strong>Elektro Locher Installationen AG</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Standorte Bergdietikon Widen Birmenstorf</div></div><div class="item"><strong>Lovino Elektro GmbH</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Niederrohrdorf regional verankert mit Service Umbauten Gewerbe und Gebäudeautomation</div></div><div class="item"><strong>Jenni + Bolliger Hunzenschwil AG</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Möriken AG mit Fokus Neubau Umbau Industrie Service und Altkupfer-Recycling im Betrieb</div></div><div class="item"><strong>Keller Erhard AG</strong><div class="small">Aargau · Zu kontaktieren</div><div style="margin-top:6px">Zofingen regional führend in Elektroinstallationen Kommunikation Multimedia und EDV</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Verteilung</h2>
+        <div class="list">
+          <div class="item"><strong>Nach Region</strong><div class="small" style="margin-top:8px">Aargau: 8 · Luzern: 2 · Solothurn: 5 · Zug: 3 · Zürich: 7</div></div>
+          <div class="item"><strong>Nach Status</strong><div class="small" style="margin-top:8px">Zu kontaktieren: 10</div></div>
+          <div class="item"><strong>Pipeline</strong><div class="small" style="margin-top:8px">Gesamtpipeline aktuell: 17 Einträge</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <div class="card section">
+        <h2>Wen haben wir kontaktiert / als Nächstes auf dem Tisch</h2>
+        <table>
+          <thead><tr><th>Firma</th><th>Region</th><th>Status</th><th>Kontakt</th><th>Letzter Kontakt</th><th>Nächster Schritt</th><th>Notiz</th></tr></thead>
+          <tbody><tr>
+    <td><strong>Jost Elektro AG</strong><div class="small"><a href="https://www.jostelektro.ch">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Elektroinstallateur im Aargau mit Service Automation und Photovoltaik</td>
+  </tr><tr>
+    <td><strong>W + S Elektro AG</strong><div class="small"><a href="https://www.ws-ag.ch">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Aarau Rohr mit Elektroinstallationen und Photovoltaik</td>
+  </tr><tr>
+    <td><strong>Eglin Elektro AG Baden</strong><div class="small"><a href="https://www.eglin.ch/kontakt/">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Baden im Aargau und Limmattal</td>
+  </tr><tr>
+    <td><strong>LNPE Elektro GmbH</strong><div class="small"><a href="https://lnpe-elektro.ch">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>info@lnpe-elektro.ch<div class="small">+41 56 249 00 50</div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Rekingen mit Elektroinstallationen und Montagen</td>
+  </tr><tr>
+    <td><strong>Elektro Locher Installationen AG</strong><div class="small"><a href="https://www.elektro-locher.ch">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>info@elektro-locher.ch<div class="small">044 744 60 20</div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Standorte Bergdietikon Widen Birmenstorf</td>
+  </tr><tr>
+    <td><strong>Lovino Elektro GmbH</strong><div class="small"><a href="https://www.local.ch/de/d/niederrohrdorf/5443/elektriker/lovino-elektro-gmbh">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Niederrohrdorf regional verankert mit Service Umbauten Gewerbe und Gebäudeautomation</td>
+  </tr><tr>
+    <td><strong>Jenni + Bolliger Hunzenschwil AG</strong><div class="small"><a href="https://www.local.ch/de/d/moeriken-ag/5103/elektriker/jenni-bolliger-hunzenschwil-ag">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Möriken AG mit Fokus Neubau Umbau Industrie Service und Altkupfer-Recycling im Betrieb</td>
+  </tr><tr>
+    <td><strong>Keller Erhard AG</strong><div class="small"><a href="https://www.local.ch/de/d/zofingen/4800/elektriker/keller-erhard-ag">Website</a></div></td>
+    <td>Aargau</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Zofingen regional führend in Elektroinstallationen Kommunikation Multimedia und EDV</td>
+  </tr><tr>
+    <td><strong>Zünd Elektro AG</strong><div class="small"><a href="https://www.local.ch/de/d/duebendorf/8600/elektriker/zuend-elektro-ag">Website</a></div></td>
+    <td>Zürich</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Dübendorf mit Starkstrom Schwachstrom und Telematik</td>
+  </tr><tr>
+    <td><strong>Heinz Bär AG Elektro-Anlagen</strong><div class="small"><a href="https://www.local.ch/de/d/zuerich/8051/telefoninstallation/heinz-baer-ag-elektro-anlagen">Website</a></div></td>
+    <td>Zürich</td>
+    <td><span class="pill">Zu kontaktieren</span></td>
+    <td>-<div class="small"></div></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Zürich mit Elektroinstallationen Kontrollen Reparaturen und Photovoltaik</td>
+  </tr></tbody>
+        </table>
+      </div>
+
+      <div class="card section">
+        <h2>Wer hat geantwortet</h2>
+        <table>
+          <thead><tr><th>Firma</th><th>Region</th><th>Status</th><th>Kontakt</th><th>Letzter Kontakt</th><th>Nächster Schritt</th><th>Notiz</th></tr></thead>
+          <tbody><tr><td colspan="7">Noch keine Antworten erfasst.</td></tr></tbody>
+        </table>
+      </div>
+
+      <div class="grid2">
+        <div class="card section">
+          <h2 class="ok">Zugesagt / gewonnen</h2>
+          <table>
+            <thead><tr><th>Firma</th><th>Region</th><th>Status</th><th>Kontakt</th><th>Letzter Kontakt</th><th>Nächster Schritt</th><th>Notiz</th></tr></thead>
+            <tbody><tr><td colspan="7">Noch keine gewonnenen Firmen.</td></tr></tbody>
+          </table>
+        </div>
+        <div class="card section">
+          <h2 class="bad">Abgesagt / verloren</h2>
+          <table>
+            <thead><tr><th>Firma</th><th>Region</th><th>Status</th><th>Kontakt</th><th>Letzter Kontakt</th><th>Nächster Schritt</th><th>Notiz</th></tr></thead>
+            <tbody><tr><td colspan="7">Noch keine verlorenen Firmen.</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
