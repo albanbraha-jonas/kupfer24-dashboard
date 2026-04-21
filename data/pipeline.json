@@ -172,19 +172,39 @@
   {
     "segment": "Elektriker",
     "region": "Zürich",
-    "company": "",
+    "company": "Elektro Compagnoni AG",
     "contact_name": "",
-    "email": "",
-    "phone": "",
-    "website": "",
-    "source": "manual_research",
-    "status": "research_pending",
+    "email": "info@elektro-compagnoni.ch",
+    "phone": "044 301 44 44",
+    "website": "https://www.elektro-compagnoni.ch/",
+    "source": "website",
+    "status": "to_contact",
     "response_type": "",
     "last_contacted": "",
-    "next_followup": "",
+    "next_followup": "2026-04-24",
     "owner": "Jonas",
     "escalation": "none",
-    "notes": "Startblock 2"
+    "notes": "Zürich Oerlikon. Gute regionale Passung",
+    "null": [
+      " klassischer Elektroinstallateur. Finale kurze Erstmail sendebereit."
+    ]
+  },
+  {
+    "segment": "Elektriker",
+    "region": "Zürich",
+    "company": "Elektro Schenk AG",
+    "contact_name": "",
+    "email": "info@elektroschenk.ch",
+    "phone": "+41 44 930 06 06",
+    "website": "https://elektroschenk.ch/",
+    "source": "website",
+    "status": "to_contact",
+    "response_type": "",
+    "last_contacted": "",
+    "next_followup": "2026-04-24",
+    "owner": "Jonas",
+    "escalation": "none",
+    "notes": "Elektroinstallateur im Raum Zürich/Wetzikon. Langfristige Partnerschaft für Kabel- und Kupferreste ansprechen."
   },
   {
     "segment": "Rückbau",
@@ -204,6 +224,26 @@
     "notes": ""
   },
   {
+    "segment": "Elektriker",
+    "region": "Zürich",
+    "company": "Baumann Koelliker AG",
+    "contact_name": "",
+    "email": "info@baumann-koelliker.ch",
+    "phone": "+41 44 497 37 37",
+    "website": "https://baumann-koelliker.ch/",
+    "source": "website",
+    "status": "to_contact",
+    "response_type": "",
+    "last_contacted": "",
+    "next_followup": "2026-04-24",
+    "owner": "Jonas",
+    "escalation": "none",
+    "notes": "Grosse Zürcher Elektromarke",
+    "null": [
+      " strategisch interessant. Personalisierte lange Erstmail sinnvoll."
+    ]
+  },
+  {
     "segment": "Sanitär",
     "region": "Luzern",
     "company": "",
@@ -221,6 +261,23 @@
     "notes": ""
   },
   {
+    "segment": "Elektriker",
+    "region": "Solothurn",
+    "company": "Elektro Furrer AG",
+    "contact_name": "",
+    "email": "info@elektrofurrer.ch",
+    "phone": "041 662 00 70",
+    "website": "https://elektrofurrer.ch/",
+    "source": "website",
+    "status": "to_contact",
+    "response_type": "",
+    "last_contacted": "",
+    "next_followup": "2026-04-24",
+    "owner": "Jonas",
+    "escalation": "none",
+    "notes": "Solothurner Elektriker mit klarer Kontaktseite. Gute Ergänzung für nächsten Outreach-Block."
+  },
+  {
     "segment": "Metallbau",
     "region": "Aargau",
     "company": "",
@@ -236,6 +293,26 @@
     "owner": "Jonas",
     "escalation": "none",
     "notes": ""
+  },
+  {
+    "segment": "Elektriker",
+    "region": "Solothurn",
+    "company": "Schibli AG",
+    "contact_name": "",
+    "email": "info@schibli.com",
+    "phone": "+41 44 252 52 52",
+    "website": "https://schibliag.ch/",
+    "source": "website",
+    "status": "to_contact",
+    "response_type": "",
+    "last_contacted": "",
+    "next_followup": "2026-04-24",
+    "owner": "Jonas",
+    "escalation": "none",
+    "notes": "Grössere Gruppe mit Solothurn/Bellach-Bezug",
+    "null": [
+      " strategisch interessant für wiederkehrende Materialquellen."
+    ]
   },
   {
     "segment": "Industrie",
